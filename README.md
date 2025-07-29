@@ -15,13 +15,13 @@ Chazz - GoldCup assets
 
 Ender - Scratch
 
-Spoike - Creator of one of the most capable Quake engines ever.
+Spoike - Creator of [FTE](https://fte.triptohell.info/), one of the most capable Quake engines ever.
 
 [Gridluster](https://gridluster.bandcamp.com/) - Music for Map1
 
 [SinisterSpud](https://github.com/SinisterSpud) - Models, coding and general contributions
 
-[xaGe](https://github.com/eGax) - Testing, TrenchBroom FGD support, general misc/help
+[xaGe](https://github.com/eGax) - Testing, [TrenchBroom](https://trenchbroom.github.io/) FGD support, general misc/help
 <br><br>
 
 #
