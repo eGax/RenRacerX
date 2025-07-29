@@ -1,0 +1,1 @@
+./RenRacer-sdl2 -dedicated +ragewar 1 +map dm1 +sv_public /ragewar

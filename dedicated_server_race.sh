@@ -1,0 +1,1 @@
+./RenRacer-sdl2 -dedicated +map map1 +sv_public /renracer
