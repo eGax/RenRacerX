@@ -25,8 +25,10 @@ void () streetlamp_die =
 		return;
 
 	self.touch = SUB_Null;
+	self.origin_z = self.origin_z - 6; // sink the pole slightly in the ground on final frame
 	//self.velocity = other.velocity;
 	sound (self, CHAN_BODY, "misc/hitpole.wav", 1, ATTN_NORM);
+	
 	lamp_die2();
 }
 
@@ -47,12 +49,12 @@ void() streetlamp =
 	precache_model ("progs/w_streetlamp.mdl");
 	precache_sound ("misc/hitpole.wav");
 	setmodel (self, "progs/w_streetlamp.mdl");
-	setsize (self, '-9 -9 -17', '10 8 38');
+	setsize (self, '-9 -9 -0', '10 8 38');
 	self.movetype = MOVETYPE_NONE;
 	self.solid = SOLID_TRIGGER;
 	self.takedamage = DAMAGE_NO;
 	self.classname = "decor";
-	// self.origin_z = self.origin_z - 8;
+	// self.origin_z = self.origin_z - 8; // not needed any longer.
 //	self.health = 1;
 	self.touch = streetlamp_die;
 	droptofloor();

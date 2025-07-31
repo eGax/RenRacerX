@@ -215,5 +215,6 @@
 // entity 19
 {
 "classname" "speedboost"
-"origin" "392 -40 16"
+"origin" "392 -16 16"
+"angle" "90"
 }
