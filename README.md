@@ -1,4 +1,4 @@
-# ![RenRacer Icon](./data/dev/tb_addon_RRX/RenRacerX/Icon.png) RenRacerX<br>
+# ![RenRacer Icon](./data/dev/tb_addon_RRX/RenRacer/Icon.png) RenRacerX<br>
 
 
 My experimental fork of Rennyc's [RenRacer](https://github.com/RennyC4/RenRacer). Mostly small code and model changes currently.<br><br>

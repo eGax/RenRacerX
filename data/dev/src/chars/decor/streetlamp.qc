@@ -49,7 +49,7 @@ void() streetlamp =
 	precache_model ("progs/w_streetlamp.mdl");
 	precache_sound ("misc/hitpole.wav");
 	setmodel (self, "progs/w_streetlamp.mdl");
-	setsize (self, '-9 -9 -0', '10 8 38');
+	setsize (self, '-9 -9 -0', '10 8 38'); // changed to 0
 	self.movetype = MOVETYPE_NONE;
 	self.solid = SOLID_TRIGGER;
 	self.takedamage = DAMAGE_NO;

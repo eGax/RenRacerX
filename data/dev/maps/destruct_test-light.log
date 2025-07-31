@@ -2,7 +2,6 @@
 LoadBSPFile: 'destruct_test.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
-ConvertTextures: WARNING: invalid size data for 
 Loading extended texinfo flags from destruct_test.texinfo.json...
 20 entities read, 0 are lights.
 BSPX colored light output requested on command line.
@@ -19,8 +18,8 @@ BSPX light directions output requested on command line.
 
 Embree_TraceInit: Embree version: 3.13.1
 Embree_TraceInit: 
-	9 sky faces
-	182 solid faces
+	8 sky faces
+	110 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -28,12 +27,12 @@ SetupLights: 0 after surface lights
 SetupLights: 0 after jittering
 Final count: 0 lights, 66 suns in use.
 0 surface light points in use.
-lightmap size (total): 137872
+lightmap size (total): 120932
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing destruct_test.bsp as Quake BSP bsp29
-2.761s seconds elapsed
+2.272s seconds elapsed
 0 empty lightmaps
 
 

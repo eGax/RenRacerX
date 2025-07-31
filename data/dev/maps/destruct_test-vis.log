@@ -7,16 +7,16 @@
 LoadBSPFile: 'destruct_test.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
-    16 leafs
-    16 clusters
-    34 portals
+     2 leafs
+     2 clusters
+     0 portals
 Calculating Base Vis:
 Calculating Full Vis:
 Expanding clusters...
-average leafs visible: 14
+average leafs visible: 1
 c_noclip: 0
-c_chains: 659
-visdatasize:33  compressed from 32
+c_chains: 0
+visdatasize:2  compressed from 2
 Writing destruct_test.bsp as Quake BSP bsp29
 0.00s elapsed
 
