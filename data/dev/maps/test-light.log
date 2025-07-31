@@ -1,0 +1,35 @@
+---- light / ericw-tools 2.0.0-alpha9 ----
+LoadBSPFile: 'test.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+Loading extended texinfo flags from test.texinfo.json...
+24 entities read, 0 are lights.
+BSPX colored light output requested on command line.
+BSPX light directions output requested on command line.
+
+--- Options Summary ---
+    "threads" was set to "3" (from command line)
+    "bounce" was set to "1" (from command line)
+    "soft" was set to "2" (from command line)
+    "extra" was set to "4" (from command line)
+
+Embree_TraceInit: Embree version: 3.13.1
+Embree_TraceInit: 
+	9 sky faces
+	78 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
+Final count: 0 lights, 0 suns in use.
+0 surface light points in use.
+lightmap size (total): 0
+Lighting Completed.
+
+0 switchable light styles (32 max)
+Writing test.bsp as Quake BSP bsp29
+0.030s seconds elapsed
+0 empty lightmaps
+
+

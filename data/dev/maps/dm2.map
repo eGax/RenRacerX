@@ -4,7 +4,7 @@
 {
 "mapversion" "220"
 "classname" "worldspawn"
-"wad" "C:/Games/RenRacer/data/dev/wads/tm1.wad;C:/Games/RenRacer/data/dev/wads/colours.wad"
+"wad" "tm1.wad;colours.wad"
 "_bounce" "1"
 "_dirt" "1"
 "_sun_mangle" "-60 -45 0"

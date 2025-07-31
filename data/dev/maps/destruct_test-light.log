@@ -1,0 +1,39 @@
+---- light / ericw-tools 2.0.0-alpha9 ----
+LoadBSPFile: 'destruct_test.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+ConvertTextures: WARNING: invalid size data for 
+Loading extended texinfo flags from destruct_test.texinfo.json...
+20 entities read, 0 are lights.
+BSPX colored light output requested on command line.
+BSPX light directions output requested on command line.
+
+--- Options Summary ---
+    "threads" was set to "3" (from command line)
+    "bounce" was set to "1" (from command line)
+    "sunlight" was set to "300.000000" (from map)
+    "sunlight2" was set to "150.000000" (from map)
+    "sunlight_mangle" was set to "0.35355335 -0.61237246 -0.70710677" (from map)
+    "soft" was set to "2" (from command line)
+    "extra" was set to "4" (from command line)
+
+Embree_TraceInit: Embree version: 3.13.1
+Embree_TraceInit: 
+	9 sky faces
+	182 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
+Final count: 0 lights, 66 suns in use.
+0 surface light points in use.
+lightmap size (total): 137872
+Lighting Completed.
+
+0 switchable light styles (32 max)
+Writing destruct_test.bsp as Quake BSP bsp29
+2.439s seconds elapsed
+0 empty lightmaps
+
+

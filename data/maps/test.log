@@ -1,0 +1,101 @@
+---- qbsp / ericw-tools 2.0.0-alpha9 ----
+
+--- Options Summary ---
+
+Input file: /home/retro/Games/RenRacerX/data/dev/maps/test-compile.map
+Output file: /home/retro/Games/RenRacerX/data/dev/maps/test.bsp
+
+INFO: using built-in palette.
+    24 entities
+     6 unique textures
+    51 texinfos
+    52 unique planes
+
+INFO: world extents calculated to 1672 units
+    16 brushes
+    96 sides
+
+            0 texture frames added
+Processing hull 0...
+    10 SOLID brushes
+     5 SKY brushes
+    15 brushes total
+    90 visible sides
+INFO: calculating BSP for 15 brushes with 90 sides
+    15 brushes
+    90 visible faces
+    100 nodes
+     37 expensive split nodes
+     63 mid-split nodes
+    101 leaves
+     30 SOLID leafs
+     11 SKY leafs
+     60 EMPTY leafs
+    101 leafs total
+    12 max tree height
+     8 avg tree height
+    439 tree portals
+    55 outside leaves
+    0 detail filled leafs
+    15 brushes
+    23 visible faces
+    67 non-visible faces
+    53 nodes
+    37 non-visible nodes
+    53 expensive split nodes
+    54 leaves
+    10 SOLID leafs
+     5 SKY leafs
+    39 EMPTY leafs
+    54 leafs total
+    9 max tree height
+    7 avg tree height
+    266 tree portals
+    36 outside leaves
+    0 detail filled leafs
+    266 tree portals
+    23 sides visible
+    23 makefaces
+     1 merged
+    52 subdivided
+    24 nodes pruned
+     8 player-occupiable leaves
+     8 clusters of leaves
+    10 vis portals
+     3 EMPTY leafs
+     5 SKY leafs
+    22 SOLID leafs
+    30 leafs total
+    9 max tree height
+    6 avg tree height
+     66 edges added by tjunctions
+     74 faces optimized through MWT
+    214 triangles computed from MWT
+     13 faces created via optimization of MWT triangles
+    194 edges
+     87 faces
+Processing hull 1...
+Processing hull 2...
+Writing test.bsp as Quake BSP bsp29
+Wrote test.bsp
+
+count   lump name    byte size 
+      1 models               64
+     40 planes              800
+    109 vertexes           1308
+     29 nodes               696
+     16 texinfos            640
+     87 faces              1740
+     36 clipnodes           288
+      9 leafs               252
+     87 marksurfaces        174
+    195 edges               780
+    388 surfedges          1552
+      6 textures          62828
+        lightdata             0
+        visdata               0
+        entdata            1538
+
+0.045s seconds elapsed
+
+

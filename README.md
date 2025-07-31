@@ -13,7 +13,7 @@ My experimental fork of Rennyc's [RenRacer](https://github.com/RennyC4/RenRacer)
 
 Chazz - GoldCup assets
 
-Ender - Scratch
+Ender - [Scratch](https://www.insideqc.com/qctut/scratch.shtml)
 
 Spoike - Creator of [FTE](https://fte.triptohell.info/), one of the most capable Quake engines ever.
 

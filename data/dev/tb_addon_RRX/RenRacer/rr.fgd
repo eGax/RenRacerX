@@ -1,9 +1,13 @@
 //
-// rr.fgd - For RenRacer
+// RenRacer game definition file - rr.fgd
+// Part of the RenRacer addon for TrenchBroom 2025.3+ : https://trenchbroom.github.io/
 
-// TrenchBroom dev builds, and Ericw-tools.
+// Supports Ericw-tools map compilers : https://github.com/ericwa/ericw-tools
 //
-// Last edits 202309140600 : Add 1 light ent
+
+// Last edits 202507292100 : // model origin model fixes, accompanying code changes.
+//
+
 
 // worldspawn
 
@@ -58,7 +62,7 @@
 
 @baseclass base() size(-32 -32 -28, 32 32 32) color(0 255 0) model({ "path": ":tb/progs/hotrod.mdl"}) = PlayerClass []
 @PointClass base(PlayerClass) model({ "path": ":tb/progs/hotrod.mdl","skin":"1"}) = dm_spawnpoint : "Deathmatch start" []
-@PointClass base(PlayerClass) model({ "path": ":tb/progs/hotrod.mdl","skin":"2"}) = testplayerstart : "Testing player start" []
+@PointClass base(PlayerClass) model({ "path": ":tb/progs/hotrod.mdl","skin":"2"}) = info_player_start : "Default player start" []
 @PointClass base(PlayerClass) = racer_spawnpoint : "Player start" []
 @PointClass base(PlayerClass, Targetname) = info_teleport_destination : "Teleporter destination" []
 
@@ -189,7 +193,7 @@ model != NUll -> {"path":model,"skin":skin,"frame":frame,"scale":scale,"alpha":a
 
 // RR pickup entities //
 
-@PointClass base() size(-6 -6 -9, 6 6 9) model({"path":"progs/bsp/spdboost.bsp"}) = speedboost : "Lets hope this gets changed to a brush entity for easy creation in your own maps."
+@PointClass base() size(-64 -64 0, 64 64 8) model({"path":"progs/bsp/spdboost.bsp"}) = speedboost : "Lets hope this gets changed to a brush entity for easy creation in your own maps."
 	[
 	speed(integer) :	"How fast to boost..." : 5000 : "default 5000"
 	speedboost_finished(integer) : "How long to boost..." : 1 : ""
@@ -271,7 +275,7 @@ spawnflags(flags) =
 @PointClass base() size(-16 -16 0, 16 16 8) model({"path":":progs/w_trashlid.mdl"}) = trashlid : "Trash lid!!" []
 
 
-@PointClass base() size(-9 -9 -0, 10 8 48) model({{
+@PointClass base() size(-8 -8 -0, 8 8 48) model({{
 	spawnflags == 0 -> 	{"path":"progs/cactus1.mdl"},
 	spawnflags == 1 -> 	{"path":"progs/cactus2.mdl", "skin": 0},
 	spawnflags == 2 -> 	{"path":"progs/cactus3.mdl", "skin": 0},
@@ -288,9 +292,9 @@ spawnflags(flags) =
  [
 spawnflags(flags) =
 	[
-		0 : "cactus 0"
-		1 : "cactus 1"
-		2 : "cactus 2"
+		0 : "cactus 1"
+		1 : "cactus 2"
+		2 : "cactus 3"
 		4 : "cactus 4"
 	]
 ]	

@@ -4,7 +4,7 @@
 {
 "mapversion" "220"
 "classname" "worldspawn"
-"wad" "C:/Games/RenRacer/data/dev/wads/goldcup.wad"
+"wad" "goldcup.wad"
 // brush 0
 {
 ( -512 608 736 ) ( -512 -512 736 ) ( -512 -512 704 ) sky4 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -153,22 +153,22 @@
 // entity 1
 {
 "classname" "racer_spawnpoint"
-"origin" "0 0 72"
+"origin" "0 0 45"
 }
 // entity 2
 {
 "classname" "racer_spawnpoint"
-"origin" "-168 -88 88"
+"origin" "-168 -88 61"
 }
 // entity 3
 {
 "classname" "racer_spawnpoint"
-"origin" "-8 168 72"
+"origin" "-8 168 45"
 }
 // entity 4
 {
 "classname" "racer_spawnpoint"
-"origin" "-168 248 88"
+"origin" "-168 248 61"
 }
 // entity 5
 {
@@ -203,12 +203,12 @@
 // entity 10
 {
 "classname" "info_player_start"
-"origin" "-104 56 96"
+"origin" "-104 56 69"
 }
 // entity 11
 {
 "classname" "dm_spawnpoint"
-"origin" "-392 -104 88"
+"origin" "-392 -104 61"
 }
 // entity 12
 {
@@ -231,51 +231,52 @@
 // entity 15
 {
 "classname" "info_teleport_destination"
-"origin" "48 240 144"
+"origin" "48 240 117"
 "angle" "255"
 "targetname" "1"
 }
 // entity 16
 {
 "classname" "dm_spawnpoint"
-"origin" "-296 88 88"
+"origin" "-296 88 61"
 }
 // entity 17
 {
 "classname" "dm_spawnpoint"
-"origin" "-24 296 88"
+"origin" "-24 296 61"
 }
 // entity 18
 {
 "classname" "dm_spawnpoint"
-"origin" "-360 424 88"
+"origin" "-360 424 61"
 }
 // entity 19
 {
 "classname" "pedestrian"
-"origin" "352 -144 88"
+"origin" "352 -160 46"
 "spawnflags" "4"
+"angle" "180"
 }
 // entity 20
 {
 "classname" "cactus"
-"origin" "294 326 41"
+"origin" "294 326 17"
 }
 // entity 21
 {
 "classname" "cactus"
-"origin" "296 232 40"
+"origin" "312 232 16"
 "spawnflags" "1"
 }
 // entity 22
 {
 "classname" "cactus"
-"origin" "312 152 40"
+"origin" "312 152 16"
 "spawnflags" "2"
 }
 // entity 23
 {
 "classname" "cactus"
-"origin" "312 56 40"
+"origin" "312 56 16"
 "spawnflags" "4"
 }

@@ -36,12 +36,12 @@ void() stopsign =
 	precache_model ("progs/w_stopsign.mdl");
 	precache_sound ("misc/hitsign.wav");
 	setmodel (self, "progs/w_stopsign.mdl");
-	setsize (self, '-9 -9 -17', '10 8 38');
+	setsize (self, '-9 -9 0', '10 8 38');
 	self.movetype = MOVETYPE_NONE;
 	self.solid = SOLID_TRIGGER;
 	self.takedamage = DAMAGE_NO;
 	self.classname = "decor";
-	self.origin_z = self.origin_z - 8;
+	// self.origin_z = self.origin_z - 8; not needed
 	//	self.health = 1;
 	self.touch = stopsign_die;
 	droptofloor();

@@ -52,7 +52,7 @@ void() streetlamp =
 	self.solid = SOLID_TRIGGER;
 	self.takedamage = DAMAGE_NO;
 	self.classname = "decor";
-	self.origin_z = self.origin_z - 8;
+	// self.origin_z = self.origin_z - 8;
 //	self.health = 1;
 	self.touch = streetlamp_die;
 	droptofloor();

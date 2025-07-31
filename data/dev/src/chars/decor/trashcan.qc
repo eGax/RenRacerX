@@ -24,7 +24,7 @@ void () trashcan_die =
 	if (other.takedamage == DAMAGE_AIM)
 	{
 		self.movetype = MOVETYPE_BOUNCE;
-		//setsize(self, '-55 -55 -4', '55 55 60');
+		//setsize(self, '-55 -55 0', '55 55 60');
 		self.velocity = other.velocity + random() * '100 100 0';
 		self.avelocity = random() * '600 600 600';
 		self.velocity_z += 500;
@@ -61,7 +61,7 @@ void() trashcan =
 		self.solid = SOLID_TRIGGER;
 		self.takedamage = DAMAGE_NO;
 		self.classname = "decor";
-		self.origin_z = self.origin_z - 8;
+		// self.origin_z = self.origin_z - 8; not needed
 //		self.health = 1;
 		self.touch = trashcan_die;
 //		self.think = trashcan_think;

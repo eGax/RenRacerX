@@ -1,0 +1,23 @@
+---- vis / ericw-tools 2.0.0-alpha9 ----
+
+--- Options Summary ---
+    "threads" was set to "3" (from command line)
+    "level" was set to "4" (from command line)
+
+LoadBSPFile: 'test.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+     8 leafs
+     8 clusters
+    10 portals
+Calculating Base Vis:
+Calculating Full Vis:
+Expanding clusters...
+average leafs visible: 4
+c_noclip: 0
+c_chains: 44
+visdatasize:8  compressed from 8
+Writing test.bsp as Quake BSP bsp29
+0.00s elapsed
+
+
